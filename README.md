@@ -2,8 +2,8 @@
 
 Arp poisoning saldırısının tespit edilebilmesi için geliştirilen program C programlama dili ile yazılmıştır. Programının çalıştırılabilmesi için şu adımlar izlenmelidir.
 
-    gcc -o 14011005 14011005.c
-    ./14011005
+    gcc -o APD Arp_Poisoning_Detection.c
+    ./APD
 
 ##Programda Kullanılan Parametreler##
 Program dışarıdan parametre almamaktadır. Fonksiyonlarda kullanılmış olan parametreler program içerisinde yorum satırları ile açıklanmıştır. Arp tablosunun kullanılabilmesi için arp tablosunun bulunduğu dizin kullanılmıştır. Bu dizin dosya açılması sırasında parametre olarak verilmiştir. 
